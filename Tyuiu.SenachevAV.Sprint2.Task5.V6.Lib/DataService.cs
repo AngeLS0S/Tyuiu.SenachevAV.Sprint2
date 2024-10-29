@@ -88,7 +88,7 @@ namespace Tyuiu.SenachevAV.Sprint2.Task5.V6.Lib
                     break;
 
                 case (1, 12):
-                    res = "Дама пик";
+                    res = "дама пик";
                     break;
                 case (2, 12):
                     res = "Дама треф";

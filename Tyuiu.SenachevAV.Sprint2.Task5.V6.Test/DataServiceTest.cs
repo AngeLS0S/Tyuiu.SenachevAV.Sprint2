@@ -40,7 +40,7 @@ namespace Tyuiu.SenachevAV.Sprint2.Task5.V6.Test
             Assert.AreEqual("Валет бубен", ds.FindCardNameAndValue(3, 11));
             Assert.AreEqual("Валет червей", ds.FindCardNameAndValue(4, 11));
 
-            Assert.AreEqual("Дама пик", ds.FindCardNameAndValue(1, 12));
+            Assert.AreEqual("дама пик", ds.FindCardNameAndValue(1, 12));
             Assert.AreEqual("Дама треф", ds.FindCardNameAndValue(2, 12));
             Assert.AreEqual("Дама бубен", ds.FindCardNameAndValue(3, 12));
             Assert.AreEqual("Дама червей", ds.FindCardNameAndValue(4, 12));
