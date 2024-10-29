@@ -23,11 +23,11 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        int n, m;
-        Console.WriteLine("Введите число: ");
-        n = Convert.ToInt32(Console.ReadLine());
+        int m, n;
         Console.WriteLine("Введите порядковый номер месяца: ");
         m = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Введите число: ");
+        n = Convert.ToInt32(Console.ReadLine());
 
         string res;
         if ((m < 1 || m > 12) || (n < 1 || n > 31))
