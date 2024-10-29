@@ -4,10 +4,10 @@ namespace Tyuiu.SenachevAV.Sprint2.Task5.V6.Lib
 {
     public class DataService : ISprint2Task5V6
     {
-        public string FindCardNameAndValue(int value1, int value2)
+        public string FindCardNameAndValue(int value2, int value1)
         {
             string res;
-            switch (value1, value2)
+            switch (value2, value1)
             {
                 case (6, 1):
                     res = "Шестёрка пик";
@@ -127,7 +127,7 @@ namespace Tyuiu.SenachevAV.Sprint2.Task5.V6.Lib
                     break;
 
                 default:
-                    throw new ArgumentException($"Первое число должно быть от 6 - 14, второе число от 1 - 4: Значение {value1}{value2}");
+                    throw new ArgumentException($"Первое число должно быть от 1 - 4, второе число от 6 - 14: Значение {value2}{value1}");
             }
             return res;
         }

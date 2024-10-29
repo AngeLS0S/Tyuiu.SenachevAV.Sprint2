@@ -30,18 +30,18 @@ internal class Program
 
         string res;
 
-        if ((value1 < 1) || (value1 > 14))
+        if ((value2 < 1) || (value2 > 14))
         {
             res = "Введено неверное значение";
 
-            if ((value2 < 1) || (value2 > 4))
+            if ((value1 < 1) || (value1 > 4))
             {
                 res = "Неверное значение";
             }
         }
         else
         {
-            res = "Это карта: " + ds.FindCardNameAndValue(value1, value2);
+            res = "Это карта: " + ds.FindCardNameAndValue(value2, value1);
         }
 
 
