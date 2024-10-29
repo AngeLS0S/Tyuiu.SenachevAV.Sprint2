@@ -23,7 +23,7 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        int m, n;
+        int n, m;
         Console.WriteLine("Введите порядковый номер месяца: ");
         m = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Введите число: ");
@@ -36,7 +36,7 @@ internal class Program
         }
         else
         {
-            res = ds.FindDateOfPreviousDay(n, m);
+            res = ds.FindDateOfPreviousDay(m, n);
         }
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
