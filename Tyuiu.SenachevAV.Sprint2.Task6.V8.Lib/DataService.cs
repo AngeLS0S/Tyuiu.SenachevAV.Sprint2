@@ -4,7 +4,7 @@ namespace Tyuiu.SenachevAV.Sprint2.Task6.V8.Lib
 {
     public class DataService : ISprint2Task6V8
     {
-        public string FindDateOfPreviousDay(int m, int n)
+        public string FindDateOfPreviousDay(int n, int m)
         {
             int k = n - 1;
             if (n == 1)
