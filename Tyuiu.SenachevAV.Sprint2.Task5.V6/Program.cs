@@ -22,26 +22,26 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("Введите номер достоинства: ");
+        Console.WriteLine("Введите номер масти: ");
         int value1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Введите номер масти: ");
+        Console.WriteLine("Введите номер достоинства: ");
         int value2 = Convert.ToInt32(Console.ReadLine());
 
         string res;
 
-        if ((value2 < 1) || (value2 > 14))
+        if ((value1 < 1) || (value1 > 4))
         {
             res = "Введено неверное значение";
 
-            if ((value1 < 1) || (value1 > 4))
+            if ((value2 < 5) || (value2 > 14))
             {
                 res = "Неверное значение";
             }
         }
         else
         {
-            res = "Это карта: " + ds.FindCardNameAndValue(value2, value1);
+            res = "Это карта: " + ds.FindCardNameAndValue(value1, value2);
         }
 
 
