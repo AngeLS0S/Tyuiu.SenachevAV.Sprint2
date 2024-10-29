@@ -36,7 +36,7 @@ internal class Program
         }
         else
         {
-            res = ds.FindDateOfPreviousDay(m, n);
+            res = ds.FindDateOfPreviousDay(n, m);
         }
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
